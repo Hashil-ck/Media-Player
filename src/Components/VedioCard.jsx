@@ -58,7 +58,7 @@ function VideoCard({ displayData, setdeleteStatus, insideCategory }) {
         </Modal.Header>
         <Modal.Body>
           <iframe width={"100%"} height={"400px"} src={`${displayData?.embbedLink}?autoplay=1`}
-            title={displayData?.caption} allow='accelerometer; autoplay;' allowFullscreen></iframe>
+            title={displayData?.caption} allow='accelerometer; autoplay;' allowFullScreen></iframe>
         </Modal.Body>
 
       </Modal>
